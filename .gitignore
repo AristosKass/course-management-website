@@ -1,0 +1,28 @@
+# Local database credentials and environment files
+**/config.local.php
+.env
+.env.*
+!.env.example
+
+# Runtime uploads are private; keep the folder structure and access rules
+/part-b/uploads/**
+!/part-b/uploads/**/
+!/part-b/uploads/**/.gitkeep
+!/part-b/uploads/**/.htaccess
+**/setup.lock
+*.log
+
+# Original submission reports and assignment briefs
+/Anafora_*.docx
+/part-*/Anafora_*.docx
+/Εκφώνηση_*.doc
+/*partA.zip
+/*partB.zip
+
+# Local tools and OS files
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
