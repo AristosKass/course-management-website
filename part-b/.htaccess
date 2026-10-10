@@ -1,0 +1,11 @@
+Options -Indexes
+
+# Apache 2.4: downloads must go through the authenticated download endpoint.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(downloads|uploads|includes)(/|$) - [F,L,NC]
+</IfModule>
+
+<FilesMatch "^(config(\..*)?\.php|setup\.php|router\.php)$">
+    Require all denied
+</FilesMatch>
