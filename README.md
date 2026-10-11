@@ -97,7 +97,7 @@ python3 tests/smoke.py http://127.0.0.1:8000
 
 The HTTP tests create and remove temporary CRUD records and store one test contact message. Uploaded test files can remain in local storage after their database records are removed.
 
-## Contributors
+## Contributor
 
 - Αριστοτέλης Κασσελούρης
 
