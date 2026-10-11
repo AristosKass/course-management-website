@@ -21,7 +21,6 @@ A university coursework project that develops a course website in two stages: a 
 | `part-a/` | Original five-page static website, CSS, images, and sample downloads |
 | `part-b/` | PHP application, shared helpers, forms, upload storage, and access rules |
 | `database/schema.sql` | Database schema and three fictional demo accounts |
-| `docs/` | Publication changes, checks, and GitHub upload instructions |
 | `tests/` | Static-resource checks and local HTTP integration tests |
 
 ## Run Part A
@@ -98,12 +97,8 @@ python3 tests/smoke.py http://127.0.0.1:8000
 
 The HTTP tests create and remove temporary CRUD records and store one test contact message. Uploaded test files can remain in local storage after their database records are removed. See [verification notes](docs/VERIFICATION.md) for coverage and limits.
 
-## Coursework and publication
+## Contributors
 
-Developed as individual coursework for **Educational Web Environments**, Department of Informatics, Aristotle University of Thessaloniki. Part B extends the Part A interface with PHP and database-backed features.
+- Αριστοτέλης Κασσελούρης
 
-The public package keeps the original interface and coursework functionality, with documented changes for configuration, privacy, and request handling. See [publication changes](docs/CHANGES.md). Original submission reports and assignment briefs are kept outside the public package.
-
-To upload this project, follow [the Greek GitHub guide](docs/GITHUB_UPLOAD.md).
-
-GitHub hosts the source files. GitHub Pages supports the static part; the dynamic part needs a PHP server and a database.
+for the "Educational Web Environments" course.
