@@ -2,8 +2,6 @@
 
 A university coursework project that develops a course website in two stages: a static HTML/CSS website and a dynamic PHP/MySQL application with authentication and Tutor/Student roles. The interface and sample course content are in Greek.
 
-![Course banner](part-a/assets/img/banner.png)
-
 ## Features
 
 - Five course sections: home, announcements, contact, documents, and homework.
